@@ -1,0 +1,35 @@
+.nav-bar_link {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(117, 117, 117);
+  font-size: 15px;
+  padding: 2px;
+}
+
+#nav-bar__batterynumber {
+  margin-top: 3px;
+}
+
+.nav-bar__list:first-child {
+  width: 8%;
+  margin-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar__list:last-child {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.nav-bar__list i {
+  margin-top: 5px;
+  color: rgb(219, 219, 219);
+  margin-right: 10px;
+}
